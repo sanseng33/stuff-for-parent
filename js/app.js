@@ -7,6 +7,19 @@
     loading: false,
   };
 
+  function statusKey(id) { return "job-status:" + id; }
+  function getStatus(job) {
+    try {
+      const s = localStorage.getItem(statusKey(job.id));
+      if (s) return s;
+    } catch (_) {}
+    return job.status || "待联系";
+  }
+  function setStatus(id, status) {
+    try { localStorage.setItem(statusKey(id), status); } catch (_) {}
+  }
+
+
   const $ = (id) => document.getElementById(id);
   const listEl = $("list");
   const listEmpty = $("listEmpty");
@@ -95,6 +108,7 @@
           <p class="card-salary">${escapeHtml(j.salary || "薪资面议")}</p>
           <p class="card-sub">${escapeHtml(place)} · ${escapeHtml(j.company || "")}</p>
           <p class="card-line">${escapeHtml(line)}</p>
+          <p class="card-sub">进度：${escapeHtml(getStatus(j))}</p>
         </button>`;
     }).join("");
   }
@@ -127,7 +141,7 @@
       ["电话", phones.map(formatPhone).join(" / ")],
       ["平台联系", job.contactHint],
       ["地址", job.address],
-      ["状态", job.status],
+      ["状态", getStatus(job)],
       ["备注", job.notes],
     ].filter(([, v]) => v);
 
@@ -149,12 +163,26 @@
         <button type="button" class="btn-secondary" id="btnCopyLink" ${job.url ? "" : "disabled"}>复制岗位链接</button>
         <a class="btn-secondary" ${job.url ? `href="${escapeAttr(job.url)}" target="_blank" rel="noopener"` : "aria-disabled=true"}
            style="${job.url ? "text-align:center;line-height:48px;text-decoration:none;display:block" : "pointer-events:none;opacity:.45"}">打开原网页</a>
+        <button type="button" class="btn-secondary" id="btnCycleStatus">标记进度（当前：${escapeHtml(getStatus(job))}）</button>
       </div>`;
 
     const copyPhone = document.getElementById("btnCopyPhone");
     const copyLink = document.getElementById("btnCopyLink");
     if (copyPhone) copyPhone.onclick = () => copyText(phones[0], "电话已复制");
     if (copyLink) copyLink.onclick = () => copyText(job.url, "链接已复制");
+
+    const cycle = document.getElementById("btnCycleStatus");
+    if (cycle) {
+      const order = ["待联系", "已联系", "已约面试", "不考虑", "已上车"];
+      cycle.onclick = () => {
+        const cur = getStatus(job);
+        const next = order[(Math.max(0, order.indexOf(cur)) + 1) % order.length];
+        setStatus(job.id, next);
+        showToast("已标记：" + next);
+        renderDetail(findJob(job.id));
+      };
+    }
+
   }
 
   async function copyText(text, okMsg) {
