@@ -3,6 +3,7 @@
     jobs: [],
     updatedAt: "",
     tab: "mom",
+    filterPriority: "all",
     loading: false,
   };
 
@@ -67,7 +68,11 @@
   }
 
   function filtered() {
-    return state.jobs.filter((j) => j.person === state.tab);
+    return state.jobs.filter((j) => {
+      if (j.person !== state.tab) return false;
+      if (state.filterPriority === "all") return true;
+      return String(j.priority || "").includes(state.filterPriority);
+    });
   }
 
   function badgeClass(p) {
@@ -227,6 +232,17 @@
   $("btnBack").addEventListener("click", () => {
     go(state.tab === "dad" ? "#/dad" : "#/mom");
   });
+
+  const filtersEl = $("filters");
+  if (filtersEl) {
+    filtersEl.addEventListener("click", (e) => {
+      const chip = e.target.closest("[data-filter]");
+      if (!chip) return;
+      state.filterPriority = chip.dataset.filter;
+      filtersEl.querySelectorAll(".chip").forEach((c) => c.classList.toggle("active", c === chip));
+      renderList();
+    });
+  }
 
   $("btnRefresh").addEventListener("click", () => {
     if (state.loading) return;

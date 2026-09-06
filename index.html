@@ -24,6 +24,11 @@
 
     <main id="viewList" class="view">
       <p id="listHint" class="hint">点一条看详情，有电话可直接拨打。</p>
+      <div id="filters" class="filters">
+        <button type="button" class="chip active" data-filter="all">全部</button>
+        <button type="button" class="chip" data-filter="可投">只看可投</button>
+        <button type="button" class="chip" data-filter="慎投">只看慎投</button>
+      </div>
       <div id="list" class="list"></div>
       <p id="listEmpty" class="empty" hidden>暂时没有岗位，稍后再刷新试试。</p>
     </main>
