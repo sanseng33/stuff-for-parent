@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+  <meta name="format-detection" content="telephone=yes" />
+  <meta name="description" content="给父母看的合适工作列表，可在微信中打开" />
+  <title>合适的工作</title>
+  <meta name="theme-color" content="#1a7f4b" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icon.svg" />
+  <link rel="stylesheet" href="./css/app.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="top">
+      <div class="top-row">
+        <h1 id="pageTitle">合适的工作</h1>
+        <button type="button" id="btnRefresh" class="btn-ghost" aria-label="刷新">刷新</button>
+      </div>
+      <p id="updatedAt" class="meta">正在加载…</p>
+      <p id="disclaimer" class="disclaimer" hidden></p>
+      <nav id="tabs" class="tabs" hidden>
+        <button type="button" data-tab="mom" class="tab active">妈妈 · 家政</button>
+        <button type="button" data-tab="dad" class="tab">爸爸 · 司机</button>
+      </nav>
+    </header>
+
+    <main id="viewList" class="view">
+      <p id="listHint" class="hint">点一条看详情。母亲岗已优先排出年龄要求少的；详情里直接看电话/微信。</p>
+      <div id="filters" class="filters">
+        <button type="button" class="chip active" data-filter="all">全部</button>
+        <button type="button" class="chip" data-filter="可投">只看可投</button>
+        <button type="button" class="chip" data-filter="慎投">只看慎投</button>
+      </div>
+      <div id="list" class="list"></div>
+      <p id="listEmpty" class="empty" hidden>暂时没有岗位，稍后再刷新试试。</p>
+    </main>
+
+    <main id="viewDetail" class="view" hidden>
+      <button type="button" id="btnBack" class="btn-back">← 返回列表</button>
+      <article id="detail" class="detail"></article>
+    </main>
+
+    <p id="toast" class="toast" hidden></p>
+  </div>
+  <script src="./js/app.js"></script>
+</body>
+</html>
