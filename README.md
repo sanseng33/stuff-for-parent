@@ -4,6 +4,21 @@
 
 ## 微信打开（部署后）
 
+## 微信里怎么打开（重要）
+
+优先用正式站（已启用 GitHub Pages）：
+
+https://sanseng33.github.io/stuff-for-parent/
+
+若微信仍打不开国外域名，试国内镜像：
+
+https://cdn.jsdmirror.com/gh/sanseng33/stuff-for-parent@gh-pages/index.html
+
+仍不行：微信里点右上角 `···` → **在浏览器打开**。
+
+不要用 `cdn.jsdelivr.net`（微信里常被拦）。
+
+
 GitHub Pages 地址（需在仓库 Settings → Pages 启用一次）：
 
 `https://sanseng33.github.io/stuff-for-parent/`
