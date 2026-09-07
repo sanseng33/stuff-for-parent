@@ -66,7 +66,13 @@
       const data = await res.json();
       state.jobs = Array.isArray(data.jobs) ? data.jobs : [];
       state.updatedAt = data.updatedAt || "";
+      state.contactDisclaimer = data.contactDisclaimer || "";
       updatedAtEl.textContent = formatUpdated(state.updatedAt);
+      const disc = document.getElementById("disclaimer");
+      if (disc) {
+        disc.textContent = state.contactDisclaimer || "";
+        disc.hidden = !state.contactDisclaimer;
+      }
       tabsEl.hidden = false;
       render();
     } catch (e) {
@@ -117,7 +123,8 @@
           <p class="card-salary">${escapeHtml(j.salary || "薪资面议")}</p>
           <p class="card-sub">${escapeHtml(place)} · ${escapeHtml(j.company || "")}</p>
           <p class="card-line">${escapeHtml(line)}</p>
-          <p class="card-sub">年龄：${escapeHtml(j.ageReq || "未写明")} · 进度：${escapeHtml(getStatus(j))}</p>
+          <p class="card-sub">年龄：${escapeHtml(j.ageReq || "未写明")} · 联系：${escapeHtml(j.contactReliability || "未知")}</p>
+          <p class="card-sub">进度：${escapeHtml(getStatus(j))}</p>
         </button>`;
     }).join("");
   }
@@ -223,20 +230,25 @@
   
   function renderContacts(job) {
     const phones = [job.phone, job.phoneAlt].filter(Boolean);
+    const rel = job.contactReliability || "未知";
     const rows = [];
+    rows.push(["可靠度", rel]);
     if (job.contactName) rows.push(["联系人", job.contactName]);
     if (phones.length) rows.push(["电话", phones.map(formatPhone).join(" / ")]);
     if (job.wechat) rows.push(["微信", job.wechat]);
-    if (job.contactHint) rows.push(["其他联系方式", job.contactHint]);
-    if (!rows.length) {
-      return `<div class="contact-box"><div class="contact-title">联系方式</div><p class="v">岗位页暂未公开电话/微信，请用下方「打开原网页」在 Boss/58/鱼泡里点立即沟通或查看电话。</p></div>`;
-    }
-    const tel = phones[0] ? phoneHref(phones[0]) : "";
-    return `<div class="contact-box">
+    if (job.contactHint) rows.push(["平台入口", job.contactHint]);
+    if (job.contactNote) rows.push(["说明", job.contactNote]);
+    if (job.freshness) rows.push(["信息时效", job.freshness]);
+    const warn = (rel === "不可靠" || rel === "门店咨询热线");
+    const empty = !phones.length && !job.wechat;
+    const tel = (!warn && phones[0]) ? phoneHref(phones[0]) : "";
+    return `<div class="contact-box${warn ? " contact-warn" : ""}">
       <div class="contact-title">联系方式</div>
       ${rows.map(([k,v]) => `<div class="contact-row"><span class="k">${escapeHtml(k)}</span><span class="v">${escapeHtml(v)}</span></div>`).join("")}
+      ${empty ? `<p class="v" style="margin-top:8px">没有可公开的直连电话/微信。请用下方按钮打开原网页，登录后点「立即沟通」或「查看电话」。</p>` : ""}
+      ${warn ? `<p class="v" style="margin-top:8px;color:#9a3412">此号码可能不是该岗位招聘对接人，请优先走原网页沟通。</p>` : ""}
       ${tel ? `<a class="btn-primary" style="margin-top:12px;display:block;text-align:center;line-height:48px;text-decoration:none" href="${tel}">拨打 ${escapeHtml(formatPhone(phones[0]))}</a>` : ""}
-      ${job.wechat ? `<button type="button" class="btn-secondary" style="margin-top:10px" id="btnCopyWechat">复制微信号</button>` : ""}
+      ${(!warn && job.wechat) ? `<button type="button" class="btn-secondary" style="margin-top:10px" id="btnCopyWechat">复制微信号</button>` : ""}
     </div>`;
   }
 

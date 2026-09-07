@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T10:01:46+08:00",
+  "updatedAt": "2026-09-07T11:23:43+08:00",
   "jobs": [
     {
       "id": "M01",
@@ -24,7 +24,11 @@
       "notes": "优先不住家",
       "wechat": "",
       "phoneAlt": "",
-      "ageFriendly": "优先"
+      "ageFriendly": "优先",
+      "contactReliability": "需平台内联系",
+      "contactNote": "公开页无电话/微信。2026-09-07 复查遇访问限制，请打开原链接登录确认是否仍招聘。",
+      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招",
+      "lastChecked": "2026-09-07"
     },
     {
       "id": "M02",
@@ -49,7 +53,11 @@
       "notes": "",
       "wechat": "",
       "phoneAlt": "",
-      "ageFriendly": "优先"
+      "ageFriendly": "优先",
+      "contactReliability": "需平台内联系",
+      "contactNote": "公开页无电话/微信。2026-09-07 复查遇访问限制，请打开原链接登录确认是否仍招聘。",
+      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招",
+      "lastChecked": "2026-09-07"
     },
     {
       "id": "M03",
@@ -65,8 +73,8 @@
       "schedule": "明确白班",
       "ageReq": "未写明",
       "contactName": "石经理/侯经理（安馨到家公开）",
-      "phone": "18669863178",
-      "phoneAlt": "17660670714",
+      "phone": "",
+      "phoneAlt": "",
       "contactHint": "公开门店电话；打时说明求职白班保姆，并确认是否同一主体",
       "url": "https://www.zhipin.com/job_detail/d2c1aa160b5c624a0nR-2d2-F1RX.html",
       "address": "黄岛",
@@ -74,7 +82,11 @@
       "status": "待联系",
       "notes": "若只做顾家不做育婴，沟通时说明",
       "wechat": "",
-      "ageFriendly": "优先"
+      "ageFriendly": "优先",
+      "contactReliability": "不可靠",
+      "contactNote": "号码来自网上「安馨到家」公开经理号，未证实等于该 Boss 岗位 HR。建议只用原网页立即沟通。",
+      "freshness": "2026-09-05采集",
+      "lastChecked": "2026-09-07"
     },
     {
       "id": "M04",
@@ -99,7 +111,11 @@
       "notes": "",
       "wechat": "",
       "phoneAlt": "",
-      "ageFriendly": "优先"
+      "ageFriendly": "优先",
+      "contactReliability": "需平台内联系",
+      "contactNote": "公开页无电话/微信。2026-09-07 复查遇访问限制，请打开原链接登录确认是否仍招聘。",
+      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招",
+      "lastChecked": "2026-09-07"
     },
     {
       "id": "M06",
@@ -124,7 +140,11 @@
       "notes": "",
       "wechat": "",
       "phoneAlt": "",
-      "ageFriendly": "优先"
+      "ageFriendly": "优先",
+      "contactReliability": "需平台内联系",
+      "contactNote": "公开页无电话/微信。2026-09-07 复查遇访问限制，请打开原链接登录确认是否仍招聘。",
+      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招",
+      "lastChecked": "2026-09-07"
     },
     {
       "id": "M07",
@@ -148,8 +168,12 @@
       "status": "待联系",
       "notes": "门店询单，不是单一职位",
       "wechat": "",
-      "phoneAlt": "",
-      "ageFriendly": "优先"
+      "phoneAlt": "18053200299",
+      "ageFriendly": "优先",
+      "contactReliability": "门店咨询热线",
+      "contactNote": "0532-80976000 为春宣咨询热线；另页可见 18053200299。非单一招聘岗位直连，且来源页很旧。",
+      "freshness": "来源页标注发布于2020-12-27，属门店长页非实时招聘帖",
+      "lastChecked": "2026-09-07"
     },
     {
       "id": "M05",
@@ -165,7 +189,7 @@
       "schedule": "明确钟点工",
       "ageReq": "部分订单写28–55岁，不符合「尽量不限年龄」",
       "contactName": "",
-      "phone": "4008861873",
+      "phone": "",
       "contactHint": "品牌服务热线；说明是求职不是加盟",
       "url": "https://www.zhipin.com/job_detail/5ca25c532da304a303193N21E1VT.html",
       "address": "吴中苏蠡路81号苏蠡商务大厦1501",
@@ -174,7 +198,11 @@
       "notes": " 因年龄限制降为慎投",
       "wechat": "",
       "phoneAlt": "",
-      "ageFriendly": "慎选"
+      "ageFriendly": "慎选",
+      "contactReliability": "不可靠",
+      "contactNote": "400 为品牌服务/加盟热线可能性大，不是岗位招聘专线。",
+      "freshness": "2026-09-05采集",
+      "lastChecked": "2026-09-07"
     },
     {
       "id": "M08",
@@ -199,7 +227,11 @@
       "notes": "招阿姨文案或写≤55，求职侧需确认年龄",
       "wechat": "",
       "phoneAlt": "",
-      "ageFriendly": "慎选"
+      "ageFriendly": "慎选",
+      "contactReliability": "需平台内联系",
+      "contactNote": "58 需登录或点查看电话；公开抓取常被验证码拦截。",
+      "freshness": "2026-09-05采集；2026-09-07复查遇验证码，未能确认是否仍在招",
+      "lastChecked": "2026-09-07"
     },
     {
       "id": "D01",
@@ -224,7 +256,11 @@
       "notes": "优先小车专职",
       "wechat": "",
       "phoneAlt": "",
-      "ageFriendly": "一般"
+      "ageFriendly": "一般",
+      "contactReliability": "需平台内联系",
+      "contactNote": "公开页无电话/微信。2026-09-07 复查遇访问限制，请打开原链接登录确认是否仍招聘。",
+      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招",
+      "lastChecked": "2026-09-07"
     },
     {
       "id": "D02",
@@ -249,7 +285,11 @@
       "notes": "",
       "wechat": "",
       "phoneAlt": "",
-      "ageFriendly": "一般"
+      "ageFriendly": "一般",
+      "contactReliability": "需平台内联系",
+      "contactNote": "公开页无电话/微信。2026-09-07 复查遇访问限制，请打开原链接登录确认是否仍招聘。",
+      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招",
+      "lastChecked": "2026-09-07"
     },
     {
       "id": "D03",
@@ -274,7 +314,11 @@
       "notes": "",
       "wechat": "",
       "phoneAlt": "",
-      "ageFriendly": "一般"
+      "ageFriendly": "一般",
+      "contactReliability": "需平台内联系",
+      "contactNote": "公开页无电话/微信。2026-09-07 复查遇访问限制，请打开原链接登录确认是否仍招聘。",
+      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招",
+      "lastChecked": "2026-09-07"
     },
     {
       "id": "D06",
@@ -299,7 +343,11 @@
       "notes": "灵活度高",
       "wechat": "",
       "phoneAlt": "",
-      "ageFriendly": "一般"
+      "ageFriendly": "一般",
+      "contactReliability": "需平台内联系",
+      "contactNote": "鱼泡公开页通常不显示手机，需登录后「打个电话/聊一聊」。",
+      "freshness": "2026-09-05采集；需登录鱼泡才能打个电话",
+      "lastChecked": "2026-09-07"
     },
     {
       "id": "D08",
@@ -324,7 +372,11 @@
       "notes": "",
       "wechat": "",
       "phoneAlt": "",
-      "ageFriendly": "一般"
+      "ageFriendly": "一般",
+      "contactReliability": "需平台内联系",
+      "contactNote": "鱼泡公开页通常不显示手机，需登录后「打个电话/聊一聊」。",
+      "freshness": "2026-09-05采集；需登录鱼泡才能打个电话",
+      "lastChecked": "2026-09-07"
     },
     {
       "id": "D10",
@@ -349,7 +401,11 @@
       "notes": "年龄写明覆盖55",
       "wechat": "",
       "phoneAlt": "",
-      "ageFriendly": "一般"
+      "ageFriendly": "一般",
+      "contactReliability": "需平台内联系",
+      "contactNote": "58 需登录或点查看电话；公开抓取常被验证码拦截。",
+      "freshness": "2026-09-05采集；2026-09-07复查遇验证码，未能确认是否仍在招",
+      "lastChecked": "2026-09-07"
     },
     {
       "id": "D11",
@@ -374,7 +430,11 @@
       "notes": "",
       "wechat": "",
       "phoneAlt": "",
-      "ageFriendly": "一般"
+      "ageFriendly": "一般",
+      "contactReliability": "需平台内联系",
+      "contactNote": "58 需登录或点查看电话；公开抓取常被验证码拦截。",
+      "freshness": "2026-09-05采集；2026-09-07复查遇验证码，未能确认是否仍在招",
+      "lastChecked": "2026-09-07"
     },
     {
       "id": "D13",
@@ -399,7 +459,11 @@
       "notes": "偏平台派单",
       "wechat": "",
       "phoneAlt": "",
-      "ageFriendly": "一般"
+      "ageFriendly": "一般",
+      "contactReliability": "需平台内联系",
+      "contactNote": "58 需登录或点查看电话；公开抓取常被验证码拦截。",
+      "freshness": "2026-09-05采集；2026-09-07复查遇验证码，未能确认是否仍在招",
+      "lastChecked": "2026-09-07"
     },
     {
       "id": "D15",
@@ -424,7 +488,11 @@
       "notes": "",
       "wechat": "",
       "phoneAlt": "",
-      "ageFriendly": "一般"
+      "ageFriendly": "一般",
+      "contactReliability": "需平台内联系",
+      "contactNote": "58 需登录或点查看电话；公开抓取常被验证码拦截。",
+      "freshness": "2026-09-05采集；2026-09-07复查遇验证码，未能确认是否仍在招",
+      "lastChecked": "2026-09-07"
     },
     {
       "id": "D07",
@@ -449,7 +517,12 @@
       "notes": "与「尽量不固定」冲突，作备选",
       "wechat": "",
       "phoneAlt": "",
-      "ageFriendly": "一般"
+      "ageFriendly": "一般",
+      "contactReliability": "需平台内联系",
+      "contactNote": "鱼泡公开页通常不显示手机，需登录后「打个电话/聊一聊」。",
+      "freshness": "2026-09-05采集；需登录鱼泡才能打个电话",
+      "lastChecked": "2026-09-07"
     }
-  ]
+  ],
+  "contactDisclaimer": "Boss/58/鱼泡默认不公开手机和微信，需登录后「立即沟通/查看电话」。本站仅展示能核对的公开号；门店热线不一定等于该岗位招聘对接人。"
 }

@@ -149,3 +149,7 @@ h1 { margin: 0; font-size: 24px; font-weight: 700; letter-spacing: 0.02em; }
 .contact-title { font-size: 18px; font-weight: 700; margin-bottom: 10px; color: var(--primary); }
 .contact-row { padding: 8px 0; border-bottom: 1px solid #bbf7d0; }
 .contact-row:last-child { border-bottom: none; }
+
+.disclaimer { margin: 8px 0 0; color: #9a3412; font-size: 13px; line-height: 1.45; }
+.contact-warn { background: #fff7ed; border-color: #fdba74; }
+.contact-warn .contact-title { color: #c2410c; }
