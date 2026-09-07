@@ -81,11 +81,20 @@
   }
 
   function filtered() {
-    return state.jobs.filter((j) => {
-      if (j.person !== state.tab) return false;
-      if (state.filterPriority === "all") return true;
-      return String(j.priority || "").includes(state.filterPriority);
-    });
+    const ageRank = { "优先": 0, "一般": 1, "慎选": 2 };
+    return state.jobs
+      .filter((j) => {
+        if (j.person !== state.tab) return false;
+        if (state.filterPriority === "all") return true;
+        return String(j.priority || "").includes(state.filterPriority);
+      })
+      .sort((a, b) => {
+        if (state.tab !== "mom") return 0;
+        const ra = ageRank[a.ageFriendly] ?? 9;
+        const rb = ageRank[b.ageFriendly] ?? 9;
+        if (ra !== rb) return ra - rb;
+        return 0;
+      });
   }
 
   function badgeClass(p) {
@@ -108,7 +117,7 @@
           <p class="card-salary">${escapeHtml(j.salary || "薪资面议")}</p>
           <p class="card-sub">${escapeHtml(place)} · ${escapeHtml(j.company || "")}</p>
           <p class="card-line">${escapeHtml(line)}</p>
-          <p class="card-sub">进度：${escapeHtml(getStatus(j))}</p>
+          <p class="card-sub">年龄：${escapeHtml(j.ageReq || "未写明")} · 进度：${escapeHtml(getStatus(j))}</p>
         </button>`;
     }).join("");
   }
@@ -137,10 +146,7 @@
       ["学历", job.education],
       ["班制 / 时间", job.schedule],
       ["年龄要求", job.ageReq],
-      ["联系人", job.contactName],
-      ["电话", phones.map(formatPhone).join(" / ")],
-      ["平台联系", job.contactHint],
-      ["地址", job.address],
+            ["地址", job.address],
       ["状态", getStatus(job)],
       ["备注", job.notes],
     ].filter(([, v]) => v);
@@ -154,6 +160,7 @@
       <div class="kv">
         ${rows.map(([k, v]) => `<div><span class="k">${escapeHtml(k)}</span><span class="v">${escapeHtml(v)}</span></div>`).join("")}
       </div>
+      ${renderContacts(job)}
       ${job.askTips ? `<div class="tips"><strong>打电话可问：</strong><br/>${escapeHtml(job.askTips)}</div>` : ""}
       <div class="actions">
         <a class="btn-primary" ${primaryTel ? `href="${primaryTel}"` : "aria-disabled=true"}
@@ -170,6 +177,8 @@
     const copyLink = document.getElementById("btnCopyLink");
     if (copyPhone) copyPhone.onclick = () => copyText(phones[0], "电话已复制");
     if (copyLink) copyLink.onclick = () => copyText(job.url, "链接已复制");
+    const copyWx = document.getElementById("btnCopyWechat");
+    if (copyWx) copyWx.onclick = () => copyText(job.wechat, "微信号已复制");
 
     const cycle = document.getElementById("btnCycleStatus");
     if (cycle) {
@@ -209,6 +218,26 @@
   }
   function escapeAttr(s) {
     return escapeHtml(s).replace(/'/g, "&#39;");
+  }
+
+  
+  function renderContacts(job) {
+    const phones = [job.phone, job.phoneAlt].filter(Boolean);
+    const rows = [];
+    if (job.contactName) rows.push(["联系人", job.contactName]);
+    if (phones.length) rows.push(["电话", phones.map(formatPhone).join(" / ")]);
+    if (job.wechat) rows.push(["微信", job.wechat]);
+    if (job.contactHint) rows.push(["其他联系方式", job.contactHint]);
+    if (!rows.length) {
+      return `<div class="contact-box"><div class="contact-title">联系方式</div><p class="v">岗位页暂未公开电话/微信，请用下方「打开原网页」在 Boss/58/鱼泡里点立即沟通或查看电话。</p></div>`;
+    }
+    const tel = phones[0] ? phoneHref(phones[0]) : "";
+    return `<div class="contact-box">
+      <div class="contact-title">联系方式</div>
+      ${rows.map(([k,v]) => `<div class="contact-row"><span class="k">${escapeHtml(k)}</span><span class="v">${escapeHtml(v)}</span></div>`).join("")}
+      ${tel ? `<a class="btn-primary" style="margin-top:12px;display:block;text-align:center;line-height:48px;text-decoration:none" href="${tel}">拨打 ${escapeHtml(formatPhone(phones[0]))}</a>` : ""}
+      ${job.wechat ? `<button type="button" class="btn-secondary" style="margin-top:10px" id="btnCopyWechat">复制微信号</button>` : ""}
+    </div>`;
   }
 
   function formatPhone(phone) {

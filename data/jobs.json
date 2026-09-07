@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T16:30:00+08:00",
+  "updatedAt": "2026-09-07T10:01:46+08:00",
   "jobs": [
     {
       "id": "M01",
@@ -21,7 +21,10 @@
       "address": "李沧区世纪花园/夏庄路附近",
       "askTips": "问：56岁接不接、不住家能否压到≤9小时、要不要健康证、有无中介费",
       "status": "待联系",
-      "notes": "优先不住家"
+      "notes": "优先不住家",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "优先"
     },
     {
       "id": "M02",
@@ -43,7 +46,10 @@
       "address": "城阳春阳路183号一带",
       "askTips": "问：钟点每天几小时、56岁、就近哪片区",
       "status": "待联系",
-      "notes": ""
+      "notes": "",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "优先"
     },
     {
       "id": "M03",
@@ -61,12 +67,14 @@
       "contactName": "石经理/侯经理（安馨到家公开）",
       "phone": "18669863178",
       "phoneAlt": "17660670714",
-      "contactHint": "可先打公开号，并确认是否同一招聘",
+      "contactHint": "公开门店电话；打时说明求职白班保姆，并确认是否同一主体",
       "url": "https://www.zhipin.com/job_detail/d2c1aa160b5c624a0nR-2d2-F1RX.html",
       "address": "黄岛",
       "askTips": "说明求职白班；问年龄上限、是否必须育婴经验",
       "status": "待联系",
-      "notes": "若只做顾家不做育婴，沟通时说明"
+      "notes": "若只做顾家不做育婴，沟通时说明",
+      "wechat": "",
+      "ageFriendly": "优先"
     },
     {
       "id": "M04",
@@ -88,29 +96,10 @@
       "address": "吴中区东吴北路170号806室",
       "askTips": "优先要白班或钟点；问56岁、每天工时",
       "status": "待联系",
-      "notes": ""
-    },
-    {
-      "id": "M05",
-      "person": "mom",
-      "priority": "可投",
-      "title": "大学教职工保姆钟点工",
-      "company": "蜜蜂在家",
-      "city": "苏州",
-      "district": "吴中",
-      "salary": "面议",
-      "experience": "经验不限",
-      "education": "学历不限",
-      "schedule": "明确钟点工",
-      "ageReq": "部分订单写28–55，需确认",
-      "contactName": "",
-      "phone": "4008861873",
-      "contactHint": "品牌服务热线；说明是求职不是加盟",
-      "url": "https://www.zhipin.com/job_detail/5ca25c532da304a303193N21E1VT.html",
-      "address": "吴中苏蠡路81号苏蠡商务大厦1501",
-      "askTips": "问：钟点岗是否接受56岁、具体片区",
-      "status": "待联系",
-      "notes": ""
+      "notes": "",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "优先"
     },
     {
       "id": "M06",
@@ -132,7 +121,10 @@
       "address": "",
       "askTips": "问白班时长、56岁、是否必须带小孩经验",
       "status": "待联系",
-      "notes": ""
+      "notes": "",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "优先"
     },
     {
       "id": "M07",
@@ -154,7 +146,35 @@
       "address": "青岛",
       "askTips": "说明：56岁女、优先不住家白班≤9小时，有无合适单",
       "status": "待联系",
-      "notes": "门店询单，不是单一职位"
+      "notes": "门店询单，不是单一职位",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "优先"
+    },
+    {
+      "id": "M05",
+      "person": "mom",
+      "priority": "慎投",
+      "title": "大学教职工保姆钟点工",
+      "company": "蜜蜂在家",
+      "city": "苏州",
+      "district": "吴中",
+      "salary": "面议",
+      "experience": "经验不限",
+      "education": "学历不限",
+      "schedule": "明确钟点工",
+      "ageReq": "部分订单写28–55岁，不符合「尽量不限年龄」",
+      "contactName": "",
+      "phone": "4008861873",
+      "contactHint": "品牌服务热线；说明是求职不是加盟",
+      "url": "https://www.zhipin.com/job_detail/5ca25c532da304a303193N21E1VT.html",
+      "address": "吴中苏蠡路81号苏蠡商务大厦1501",
+      "askTips": "问：钟点岗是否接受56岁、具体片区",
+      "status": "待联系",
+      "notes": " 因年龄限制降为慎投",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "慎选"
     },
     {
       "id": "M08",
@@ -176,7 +196,10 @@
       "address": "市北四流南路125号",
       "askTips": "先问接不接受56岁求职；要白班",
       "status": "待联系",
-      "notes": ""
+      "notes": "招阿姨文案或写≤55，求职侧需确认年龄",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "慎选"
     },
     {
       "id": "D01",
@@ -198,7 +221,10 @@
       "address": "黄岛海信长江东路附近",
       "askTips": "C1；55岁；班次灵不灵活；是否自带车；有无押金",
       "status": "待联系",
-      "notes": "优先小车专职"
+      "notes": "优先小车专职",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "一般"
     },
     {
       "id": "D02",
@@ -220,7 +246,10 @@
       "address": "",
       "askTips": "55岁、车型、班次是否固定",
       "status": "待联系",
-      "notes": ""
+      "notes": "",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "一般"
     },
     {
       "id": "D03",
@@ -242,7 +271,10 @@
       "address": "",
       "askTips": "55岁、出车时段、是否过夜出差",
       "status": "待联系",
-      "notes": ""
+      "notes": "",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "一般"
     },
     {
       "id": "D06",
@@ -264,7 +296,10 @@
       "address": "即墨",
       "askTips": "时薪、出车时段、55岁、有无押金",
       "status": "待联系",
-      "notes": "灵活度高"
+      "notes": "灵活度高",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "一般"
     },
     {
       "id": "D08",
@@ -286,7 +321,10 @@
       "address": "城阳",
       "askTips": "社保、班次、55岁、押金",
       "status": "待联系",
-      "notes": ""
+      "notes": "",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "一般"
     },
     {
       "id": "D10",
@@ -308,7 +346,10 @@
       "address": "李沧",
       "askTips": "是否网约车队、抽成、押金、合同主体",
       "status": "待联系",
-      "notes": "年龄写明覆盖55"
+      "notes": "年龄写明覆盖55",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "一般"
     },
     {
       "id": "D11",
@@ -330,7 +371,10 @@
       "address": "李沧湘潭路",
       "askTips": "同上",
       "status": "待联系",
-      "notes": ""
+      "notes": "",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "一般"
     },
     {
       "id": "D13",
@@ -352,7 +396,10 @@
       "address": "市南团岛",
       "askTips": "租车抽成、合同、55岁已覆盖",
       "status": "待联系",
-      "notes": "偏平台派单"
+      "notes": "偏平台派单",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "一般"
     },
     {
       "id": "D15",
@@ -374,7 +421,10 @@
       "address": "市南绍兴路",
       "askTips": "外地主体；押金抽成；55岁",
       "status": "待联系",
-      "notes": ""
+      "notes": "",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "一般"
     },
     {
       "id": "D07",
@@ -396,7 +446,10 @@
       "address": "城阳",
       "askTips": "固定班是否接受；55岁；带车否",
       "status": "待联系",
-      "notes": "与「尽量不固定」冲突，作备选"
+      "notes": "与「尽量不固定」冲突，作备选",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "一般"
     }
   ]
 }
