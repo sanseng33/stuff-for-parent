@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T17:15:00+08:00",
+  "updatedAt": "2026-09-08T10:30:00+08:00",
   "jobs": [
     {
       "id": "M01",
@@ -27,8 +27,8 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信。2026-09-07 复查遇访问限制，请打开原链接登录确认是否仍招聘。",
-      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "M02",
@@ -56,8 +56,8 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信。2026-09-07 复查遇访问限制，请打开原链接登录确认是否仍招聘。",
-      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "M03",
@@ -85,8 +85,8 @@
       "ageFriendly": "优先",
       "contactReliability": "不可靠",
       "contactNote": "号码来自网上「安馨到家」公开经理号，未证实等于该 Boss 岗位 HR。建议只用原网页立即沟通。",
-      "freshness": "2026-09-05采集",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-05采集;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "M04",
@@ -114,8 +114,8 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信。2026-09-07 复查遇访问限制，请打开原链接登录确认是否仍招聘。",
-      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "M06",
@@ -143,8 +143,8 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信。2026-09-07 复查遇访问限制，请打开原链接登录确认是否仍招聘。",
-      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "M07",
@@ -172,8 +172,8 @@
       "ageFriendly": "优先",
       "contactReliability": "门店咨询热线",
       "contactNote": "0532-80976000 为春宣咨询热线；另页可见 18053200299。非单一招聘岗位直连，且来源页很旧。",
-      "freshness": "来源页标注发布于2020-12-27，属门店长页非实时招聘帖",
-      "lastChecked": "2026-09-07"
+      "freshness": "来源页标注发布于2020-12-27，属门店长页非实时招聘帖;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "M05",
@@ -201,8 +201,8 @@
       "ageFriendly": "慎选",
       "contactReliability": "不可靠",
       "contactNote": "400 为品牌服务/加盟热线可能性大，不是岗位招聘专线。",
-      "freshness": "2026-09-05采集",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-05采集;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "M08",
@@ -230,8 +230,8 @@
       "ageFriendly": "慎选",
       "contactReliability": "需平台内联系",
       "contactNote": "58 需登录或点查看电话；公开抓取常被验证码拦截。",
-      "freshness": "2026-09-05采集；2026-09-07复查遇验证码，未能确认是否仍在招",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-05采集；2026-09-07复查遇验证码，未能确认是否仍在招;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "D01",
@@ -259,8 +259,8 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信。2026-09-07 复查遇访问限制，请打开原链接登录确认是否仍招聘。",
-      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "D02",
@@ -288,8 +288,8 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信。2026-09-07 复查遇访问限制，请打开原链接登录确认是否仍招聘。",
-      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "D03",
@@ -317,8 +317,8 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信。2026-09-07 复查遇访问限制，请打开原链接登录确认是否仍招聘。",
-      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-05采集；2026-09-07复查时 Boss 返回访问受限，未能确认是否仍在招;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "D06",
@@ -346,8 +346,8 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "鱼泡公开页通常不显示手机，需登录后「打个电话/聊一聊」。",
-      "freshness": "2026-09-05采集；需登录鱼泡才能打个电话",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-05采集；需登录鱼泡才能打个电话;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "D08",
@@ -375,8 +375,8 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "鱼泡公开页通常不显示手机，需登录后「打个电话/聊一聊」。",
-      "freshness": "2026-09-05采集；需登录鱼泡才能打个电话",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-05采集；需登录鱼泡才能打个电话;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "D10",
@@ -404,8 +404,8 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "58 需登录或点查看电话；公开抓取常被验证码拦截。",
-      "freshness": "2026-09-05采集；2026-09-07复查遇验证码，未能确认是否仍在招",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-05采集；2026-09-07复查遇验证码，未能确认是否仍在招;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "D11",
@@ -433,8 +433,8 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "58 需登录或点查看电话；公开抓取常被验证码拦截。",
-      "freshness": "2026-09-05采集；2026-09-07复查遇验证码，未能确认是否仍在招",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-05采集；2026-09-07复查遇验证码，未能确认是否仍在招;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "D13",
@@ -462,8 +462,8 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "58 需登录或点查看电话；公开抓取常被验证码拦截。",
-      "freshness": "2026-09-05采集；2026-09-07复查遇验证码，未能确认是否仍在招",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-05采集；2026-09-07复查遇验证码，未能确认是否仍在招;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "D15",
@@ -491,8 +491,8 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "58 需登录或点查看电话；公开抓取常被验证码拦截。",
-      "freshness": "2026-09-05采集；2026-09-07复查遇验证码，未能确认是否仍在招",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-05采集；2026-09-07复查遇验证码，未能确认是否仍在招;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "D07",
@@ -520,8 +520,8 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "鱼泡公开页通常不显示手机，需登录后「打个电话/聊一聊」。",
-      "freshness": "2026-09-05采集；需登录鱼泡才能打个电话",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-05采集；需登录鱼泡才能打个电话;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "M09",
@@ -549,8 +549,8 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信。勿打品牌热线。请在智联或全职网原链登录后沟通确认是否仍招。",
-      "freshness": "2026-09-07采集；来源智联同步（全职网镜像，标注2026-08-13）",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-07采集；来源智联同步（全职网镜像，标注2026-08-13）;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "M10",
@@ -578,8 +578,8 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信。2026-09-07 直连智联遇安全验证，字段来自公开检索摘要，投前请登录智联原链接确认仍招聘。",
-      "freshness": "2026-09-07采集（智联检索摘要；站点对爬虫有验证码）",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-07采集（智联检索摘要；站点对爬虫有验证码）;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "M11",
@@ -607,8 +607,8 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信。勿把品牌400当岗位HR。投前登录智联原链接确认。",
-      "freshness": "2026-09-07采集（智联检索摘要）",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-07采集（智联检索摘要）;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "M12",
@@ -636,8 +636,8 @@
       "ageFriendly": "慎选",
       "contactReliability": "需平台内联系",
       "contactNote": "列表页无公开手机。列表入口URL，进详情后以平台沟通为准。勿拨51job客服热线当HR。",
-      "freshness": "2026-09-07采集；前程无忧家政专区列表可见（发布约09-01）",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-07采集；前程无忧家政专区列表可见（发布约09-01）;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "M13",
@@ -665,8 +665,8 @@
       "ageFriendly": "慎选",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信。需平台内联系确认档期与年龄。",
-      "freshness": "2026-09-07采集；智联同步镜像",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-07采集；智联同步镜像;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "D16",
@@ -694,8 +694,8 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "58公开页通常不显示手机，需登录后查看电话/微聊。",
-      "freshness": "2026-09-07采集；m.58详情页仍可打开",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-07采集；m.58详情页仍可打开;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "D17",
@@ -723,8 +723,8 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "58需登录查看电话；公开页无手机。",
-      "freshness": "2026-09-07采集；m.58详情页仍可打开",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-07采集；m.58详情页仍可打开;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "D18",
@@ -752,8 +752,8 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话。2026-09-07 直连智联遇验证码，字段来自公开检索摘要，投前登录智联确认。",
-      "freshness": "2026-09-07采集（智联检索摘要）",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-07采集（智联检索摘要）;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
     },
     {
       "id": "D19",
@@ -781,8 +781,327 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信。智联直连遇验证码，投前登录原链接确认仍招。",
-      "freshness": "2026-09-07采集（智联检索摘要）",
-      "lastChecked": "2026-09-07"
+      "freshness": "2026-09-07采集（智联检索摘要）;；2026-09-08日常复查仍保留",
+      "lastChecked": "2026-09-08"
+    },
+    {
+      "person": "dad",
+      "priority": "可投",
+      "title": "公司内部直招C本小车司机",
+      "company": "成都运力速聘信息科技有限公司",
+      "city": "青岛",
+      "district": "市北-河西",
+      "salary": "9000–12000元/月",
+      "experience": "3–5年",
+      "education": "不限",
+      "schedule": "无固定时间，班次面议，周末双休",
+      "ageReq": "未写明",
+      "contactName": "",
+      "phone": "",
+      "contactHint": "需平台内联系（58查看电话）",
+      "url": "https://qd.58.com/siji/67690318020097x.shtml",
+      "address": "市北-河西",
+      "askTips": "问：55岁接不接、是否小车/公司配车、有无押金租车、班次能否灵活",
+      "status": "待联系",
+      "notes": "C1/C2，公司提供车",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "一般",
+      "contactReliability": "需平台内联系",
+      "contactNote": "公开页无电话/微信",
+      "freshness": "2026-09-08新增采集",
+      "lastChecked": "2026-09-08",
+      "id": "D04"
+    },
+    {
+      "person": "dad",
+      "priority": "可投",
+      "title": "公司配车丨C2司机丨负责接送人",
+      "company": "成都运力速聘信息科技有限公司",
+      "city": "青岛",
+      "district": "李沧-李村",
+      "salary": "7000–10000元/月",
+      "experience": "3–5年",
+      "education": "不限",
+      "schedule": "无固定时间，支持全职/兼职/短期",
+      "ageReq": "未写明",
+      "contactName": "",
+      "phone": "",
+      "contactHint": "需平台内联系（58查看电话）",
+      "url": "https://qd.58.com/siji/66510288815263x.shtml",
+      "address": "李沧-李村",
+      "askTips": "问：55岁、兼职可否、是否小车接送、有无费用",
+      "status": "待联系",
+      "notes": "C1/C2，公司配车",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "一般",
+      "contactReliability": "需平台内联系",
+      "contactNote": "公开页无电话/微信",
+      "freshness": "2026-09-08新增采集",
+      "lastChecked": "2026-09-08",
+      "id": "D05"
+    },
+    {
+      "person": "dad",
+      "priority": "可投",
+      "title": "青岛小车司机时间自由无需打卡公司配电车",
+      "company": "成都运力速聘信息科技有限公司",
+      "city": "青岛",
+      "district": "崂山-麦岛",
+      "salary": "7000–11500元/月",
+      "experience": "3年以上",
+      "education": "不限",
+      "schedule": "弹性、无需打卡，月休4–6天",
+      "ageReq": "未写明",
+      "contactName": "",
+      "phone": "",
+      "contactHint": "需平台内联系（58查看电话）",
+      "url": "https://qd.58.com/siji/67682004693770x.shtml",
+      "address": "崂山-麦岛",
+      "askTips": "问：55岁、班次灵活度、是否新能源小车、押金",
+      "status": "待联系",
+      "notes": "公司提供新能源车",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "一般",
+      "contactReliability": "需平台内联系",
+      "contactNote": "公开页无电话/微信",
+      "freshness": "2026-09-08新增采集",
+      "lastChecked": "2026-09-08",
+      "id": "D09"
+    },
+    {
+      "person": "dad",
+      "priority": "可投",
+      "title": "即墨直聘小车司机/五险待遇优",
+      "company": "青岛铭盛云通网络科技有限公司",
+      "city": "青岛",
+      "district": "即墨-即墨宝龙城市广场",
+      "salary": "8000–8500元/月",
+      "experience": "3–5年",
+      "education": "不限",
+      "schedule": "班次面议，全职",
+      "ageReq": "未写明",
+      "contactName": "",
+      "phone": "",
+      "contactHint": "需平台内联系（58查看电话）",
+      "url": "https://qd.58.com/siji/67074193467534x.shtml",
+      "address": "即墨宝龙城市广场",
+      "askTips": "问：55岁接不接、小车类型、五险细节、是否住即墨",
+      "status": "待联系",
+      "notes": "C1、公司提供营运车，五险",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "一般",
+      "contactReliability": "需平台内联系",
+      "contactNote": "公开页无电话/微信",
+      "freshness": "2026-09-08新增采集",
+      "lastChecked": "2026-09-08",
+      "id": "D12"
+    },
+    {
+      "person": "dad",
+      "priority": "慎投",
+      "title": "青岛-日结最高400滴滴司机-无需带车",
+      "company": "宁波嘉扬科技有限公司（滴滴出行司机中心）",
+      "city": "青岛",
+      "district": "李沧-青山路",
+      "salary": "8500–12000元/月",
+      "experience": "不限",
+      "education": "不限",
+      "schedule": "时间自定，可主业/副业，日结",
+      "ageReq": "男21–60岁",
+      "contactName": "",
+      "phone": "",
+      "contactHint": "需平台内联系（58查看电话）",
+      "url": "https://qd.58.com/siji/67681958480772x.shtml",
+      "address": "李沧-青山路",
+      "askTips": "问：是否需租车/网约车证费用、55岁是否可上",
+      "status": "待联系",
+      "notes": "可能需租车及办理网约车资质",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "一般",
+      "contactReliability": "需平台内联系",
+      "contactNote": "公开页无电话/微信",
+      "freshness": "2026-09-08新增采集",
+      "lastChecked": "2026-09-08",
+      "id": "D14"
+    },
+    {
+      "person": "mom",
+      "priority": "可投",
+      "title": "护工/保姆/钟点工（住家·不住家）",
+      "company": "青岛万万家政服务中心",
+      "city": "青岛",
+      "district": "市南等多区",
+      "salary": "面议",
+      "experience": "不限",
+      "education": "不限",
+      "schedule": "钟点2–6小时、白班8小时，也提供住家",
+      "ageReq": "未写明",
+      "contactName": "梁女士",
+      "phone": "",
+      "contactHint": "需平台内联系（58查看电话）",
+      "url": "https://qd.58.com/baomu/44101084650278x.shtml",
+      "address": "青岛多区",
+      "askTips": "问：56岁接不接、不住家白班≤9小时、有无中介费",
+      "status": "待联系",
+      "notes": "门店聚合帖；明确有不住家/白班/钟点",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "优先",
+      "contactReliability": "需平台内联系",
+      "contactNote": "公开页无电话；门店帖，联系后核实具体家庭岗位",
+      "freshness": "2026-09-08新增采集",
+      "lastChecked": "2026-09-08",
+      "id": "M14"
+    },
+    {
+      "person": "mom",
+      "priority": "可投",
+      "title": "不住家/住家保姆服务随时上岗",
+      "company": "安馨家园家政服务部",
+      "city": "青岛",
+      "district": "全市",
+      "salary": "面议",
+      "experience": "不限",
+      "education": "不限",
+      "schedule": "全天、半天、白班、夜班、钟点，住家/不住家",
+      "ageReq": "未写明",
+      "contactName": "王老师",
+      "phone": "",
+      "contactHint": "需平台内联系（58查看电话）",
+      "url": "https://qd.58.com/baomu/57506089551788x.shtml",
+      "address": "青岛全市",
+      "askTips": "问：56岁、不住家白班、中介费、健康证",
+      "status": "待联系",
+      "notes": "门店聚合帖",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "优先",
+      "contactReliability": "需平台内联系",
+      "contactNote": "公开页无电话；疑似门店，勿把品牌热线当岗位HR",
+      "freshness": "2026-09-08新增采集",
+      "lastChecked": "2026-09-08",
+      "id": "M15"
+    },
+    {
+      "person": "mom",
+      "priority": "可投",
+      "title": "住家不住家保姆/钟点工/育婴师",
+      "company": "青岛鑫盛海物粹堂健康管理有限公司",
+      "city": "青岛",
+      "district": "黄岛香江路",
+      "salary": "面议",
+      "experience": "不限",
+      "education": "不限",
+      "schedule": "住家/不住家/钟点均有",
+      "ageReq": "未写明",
+      "contactName": "",
+      "phone": "",
+      "contactHint": "需平台内联系（58查看电话）",
+      "url": "https://qd.58.com/baomu/51125810681377x.shtml",
+      "address": "黄岛香江路",
+      "askTips": "问：56岁、不住家白班≤9h、服务范围是否仅黄岛",
+      "status": "待联系",
+      "notes": "服务区域较窄",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "优先",
+      "contactReliability": "需平台内联系",
+      "contactNote": "公开页无电话",
+      "freshness": "2026-09-08新增采集",
+      "lastChecked": "2026-09-08",
+      "id": "M16"
+    },
+    {
+      "person": "dad",
+      "priority": "可投",
+      "title": "青岛急招老司机一名",
+      "company": "曹操出行",
+      "city": "青岛",
+      "district": "青岛",
+      "salary": "8000–15000元/月",
+      "experience": "3–5年",
+      "education": "不限",
+      "schedule": "周结；流水约450–600/日",
+      "ageReq": "C1，驾龄3–5年",
+      "contactName": "",
+      "phone": "",
+      "contactHint": "需平台内联系（鱼泡）",
+      "url": "https://www.yupao.com/zhaogong/375174449/Ai78UkuKmNy7C8wlzhbd12ycQP.html",
+      "address": "青岛",
+      "askTips": "问：55岁、是否公司配车、有无押金/资质费、班次灵活否",
+      "status": "待联系",
+      "notes": "网约车；与智联曹操帖可能同类，先入库便于打开",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "一般",
+      "contactReliability": "需平台内联系",
+      "contactNote": "公开页无电话/微信",
+      "freshness": "2026-09-08新增采集",
+      "lastChecked": "2026-09-08",
+      "id": "D20"
+    },
+    {
+      "person": "mom",
+      "priority": "可投",
+      "title": "市北抚顺路第六人民医院保洁",
+      "company": "山东联泰物业服务有限公司",
+      "city": "青岛",
+      "district": "市北",
+      "salary": "5000元/月",
+      "experience": "无需经验",
+      "education": "不限",
+      "schedule": "6:30–16:30，中午休2小时（约8小时白班）",
+      "ageReq": "未写明年龄上限",
+      "contactName": "",
+      "phone": "",
+      "contactHint": "需平台内联系（51job详情联系区要登录）",
+      "url": "https://jobs.51job.com/qingdao-sbj/173512460.html",
+      "address": "市北抚顺路第六人民医院",
+      "askTips": "问：56岁接不接、是否只要保洁不做护工、社保、加班",
+      "status": "待联系",
+      "notes": "白班约8小时；偏保洁非顾家保姆，可作备选",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "优先",
+      "contactReliability": "需平台内联系",
+      "contactNote": "详情联系区需登录，未采到公开电话",
+      "freshness": "2026-09-08新增采集",
+      "lastChecked": "2026-09-08",
+      "id": "M17"
+    },
+    {
+      "person": "mom",
+      "priority": "慎投",
+      "title": "照顾老人陪护/保洁做饭钟点工/白班保姆",
+      "company": "春宣家政",
+      "city": "青岛",
+      "district": "多区",
+      "salary": "面议",
+      "experience": "不限",
+      "education": "不限",
+      "schedule": "钟点、白班、不住家及住家",
+      "ageReq": "30–55岁",
+      "contactName": "李老师",
+      "phone": "",
+      "contactHint": "需平台内联系（58查看电话）",
+      "url": "https://qd.58.com/baomu/55065162076088x.shtml",
+      "address": "青岛多区",
+      "askTips": "问：56岁是否超限、不住家白班",
+      "status": "待联系",
+      "notes": "FAQ年龄30–55，妈妈可能超限；门店帖",
+      "wechat": "",
+      "phoneAlt": "",
+      "ageFriendly": "谨慎",
+      "contactReliability": "需平台内联系",
+      "contactNote": "公开页无电话；疑似门店热线风险",
+      "freshness": "2026-09-08新增采集",
+      "lastChecked": "2026-09-08",
+      "id": "M18"
     }
   ],
   "contactDisclaimer": "Boss/58/鱼泡默认不公开手机和微信，需登录后「立即沟通/查看电话」。本站仅展示能核对的公开号；门店热线不一定等于该岗位招聘对接人。"
