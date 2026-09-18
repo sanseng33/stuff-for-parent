@@ -1,0 +1,17 @@
+{
+  "name": "合适的工作",
+  "short_name": "合适工作",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4f6f8",
+  "theme_color": "#1a7f4b",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
