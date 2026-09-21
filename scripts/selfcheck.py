@@ -38,6 +38,27 @@ for i, j in enumerate(jobs):
     if phone and any(c.isalpha() for c in phone):
         errors.append(f"job {j.get('id')} phone has letters: {phone}")
     # do not invent: empty ok
+    lc = j.get("lastChecked") or ""
+    if not lc:
+        errors.append(f"job {j.get('id')} missing lastChecked")
+
+# Freshness policy: active jobs should not be older than maxAgeDays
+from datetime import datetime, timedelta, timezone
+TZ = timezone(timedelta(hours=8))
+policy = data.get("freshnessPolicy") or {}
+max_age = int(policy.get("maxAgeDays") or 7)
+today = datetime.now(TZ).date()
+stale = []
+for j in jobs:
+    lc = j.get("lastChecked") or ""
+    try:
+        d = datetime.strptime(lc, "%Y-%m-%d").date()
+    except Exception:
+        continue
+    if (today - d).days > max_age:
+        stale.append(j.get("id"))
+if stale:
+    errors.append(f"{len(stale)} jobs older than {max_age}d by lastChecked (e.g. {stale[:5]})")
 
 html = (ROOT / "index.html").read_text(encoding="utf-8")
 for needle in ["合适的工作", "app.css", "app.js", "btnRefresh"]:
