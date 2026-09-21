@@ -123,8 +123,8 @@
           <p class="card-salary">${escapeHtml(j.salary || "薪资面议")}</p>
           <p class="card-sub">${escapeHtml(place)} · ${escapeHtml(j.company || "")}</p>
           <p class="card-line">${escapeHtml(line)}</p>
-          <p class="card-sub">年龄：${escapeHtml(j.ageReq || "未写明")} · 联系：${escapeHtml(j.contactReliability || "未知")}</p>
-          <p class="card-sub">进度：${escapeHtml(getStatus(j))}</p>
+          <p class="card-sub">年龄：${escapeHtml(j.ageReq || j.ageFriendly || "未写明")} · 联系：${escapeHtml(j.contactReliability || "未知")}</p>
+          <p class="card-sub">最近复查：${escapeHtml(j.lastChecked || "未知")} · 进度：${escapeHtml(getStatus(j))}</p>
         </button>`;
     }).join("");
   }
@@ -154,8 +154,9 @@
       ["班制 / 时间", job.schedule],
       ["年龄要求", job.ageReq],
             ["地址", job.address],
+      ["最近复查", job.lastChecked],
       ["状态", getStatus(job)],
-      ["备注", job.notes],
+      ["备注", job.notes || job.freshness],
     ].filter(([, v]) => v);
 
     detailEl.innerHTML = `
