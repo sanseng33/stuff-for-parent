@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T09:45:00+08:00",
+  "updatedAt": "2026-10-02T09:50:00+08:00",
   "jobs": [
     {
       "id": "M24",
@@ -27,8 +27,8 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-09新增采集;；2026-09-10日常复查仍保留;；2026-09-11日常复查仍保留;；2026-09-16日常复查仍保留;；2026-09-17日常复查仍保留;；2026-09-18日常复查仍保留;；2026-09-21简历后复查仍在列表;；2026-09-23日常复查仍保留;；2026-09-28日常复查仍保留;；2026-09-29日常复查仍保留；2026-09-29续扫复查仍保留;；2026-09-30日常复查仍保留;；2026-10-01日常复查仍保留",
-      "lastChecked": "2026-10-01"
+      "freshness": "2026-09-09新增采集;；2026-09-10日常复查仍保留;；2026-09-11日常复查仍保留;；2026-09-16日常复查仍保留;；2026-09-17日常复查仍保留;；2026-09-18日常复查仍保留;；2026-09-21简历后复查仍在列表;；2026-09-23日常复查仍保留;；2026-09-28日常复查仍保留;；2026-09-29日常复查仍保留；2026-09-29续扫复查仍保留;；2026-09-30日常复查仍保留;；2026-10-01日常复查仍保留；2026-10-02日常复查仍保留",
+      "lastChecked": "2026-10-02"
     },
     {
       "id": "M31",
@@ -85,8 +85,8 @@
       "ageFriendly": "慎选",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-10新增采集;；2026-09-11日常复查仍保留;；2026-09-16日常复查仍保留;；2026-09-17日常复查仍保留;；2026-09-21简历后复查仍在列表;；2026-09-23日常复查仍保留;；2026-09-24日常复查仍保留;；2026-09-28日常复查仍保留;；2026-09-29日常复查仍保留；2026-09-29续扫复查仍保留;；2026-09-30日常复查仍保留;；2026-10-01日常复查仍保留",
-      "lastChecked": "2026-10-01"
+      "freshness": "2026-09-10新增采集;；2026-09-11日常复查仍保留;；2026-09-16日常复查仍保留;；2026-09-17日常复查仍保留;；2026-09-21简历后复查仍在列表;；2026-09-23日常复查仍保留;；2026-09-24日常复查仍保留;；2026-09-28日常复查仍保留;；2026-09-29日常复查仍保留；2026-09-29续扫复查仍保留;；2026-09-30日常复查仍保留;；2026-10-01日常复查仍保留；2026-10-02日常复查仍保留",
+      "lastChecked": "2026-10-02"
     },
     {
       "id": "M99",
@@ -470,9 +470,9 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-24新增采集;；2026-09-25日常复查仍保留;；2026-09-28日常复查仍保留;；2026-09-29日常复查仍保留",
+      "freshness": "2026-09-24新增采集;；2026-09-25日常复查仍保留;；2026-09-28日常复查仍保留;；2026-09-29日常复查仍保留；2026-10-02日常复查仍保留",
       "postedAt": "2026-09-21",
-      "lastChecked": "2026-09-29"
+      "lastChecked": "2026-10-02"
     },
     {
       "id": "D203",
@@ -2090,9 +2090,9 @@
       "ageFriendly": "慎选",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-28新增采集;；2026-09-29日常复查仍保留；2026-09-29续扫复查仍保留;；2026-09-30日常复查仍保留;；2026-10-01日常复查仍保留",
+      "freshness": "2026-09-28新增采集;；2026-09-29日常复查仍保留；2026-09-29续扫复查仍保留;；2026-09-30日常复查仍保留;；2026-10-01日常复查仍保留；2026-10-02日常复查仍保留",
       "postedAt": "",
-      "lastChecked": "2026-10-01"
+      "lastChecked": "2026-10-02"
     },
     {
       "id": "D237",
@@ -2210,9 +2210,9 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-28新增采集;；2026-10-02日常复查仍保留",
+      "freshness": "2026-09-28新增采集",
       "postedAt": "2026-09-25",
-      "lastChecked": "2026-10-02"
+      "lastChecked": "2026-09-28"
     },
     {
       "id": "M239",
@@ -2480,9 +2480,9 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-28新增采集;；2026-10-02日常复查仍保留",
+      "freshness": "2026-09-28新增采集",
       "postedAt": "2026-09-23",
-      "lastChecked": "2026-10-02"
+      "lastChecked": "2026-09-28"
     },
     {
       "id": "D244",
@@ -2540,9 +2540,9 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-29新增采集；2026-09-29续扫复查仍保留;；2026-09-30日常复查仍保留;；2026-10-01日常复查仍保留",
+      "freshness": "2026-09-29新增采集；2026-09-29续扫复查仍保留;；2026-09-30日常复查仍保留;；2026-10-01日常复查仍保留；2026-10-02日常复查仍保留",
       "postedAt": "",
-      "lastChecked": "2026-10-01"
+      "lastChecked": "2026-10-02"
     },
     {
       "id": "M244",
@@ -2690,9 +2690,9 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-29新增采集;；2026-09-30日常复查仍保留;；2026-10-02日常复查仍保留",
+      "freshness": "2026-09-29新增采集;；2026-09-30日常复查仍保留",
       "postedAt": "",
-      "lastChecked": "2026-10-02"
+      "lastChecked": "2026-09-30"
     },
     {
       "id": "M247",
@@ -2720,9 +2720,9 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-29新增采集;；2026-09-30日常复查仍保留;；2026-10-02日常复查仍保留",
+      "freshness": "2026-09-29新增采集;；2026-09-30日常复查仍保留",
       "postedAt": "",
-      "lastChecked": "2026-10-02"
+      "lastChecked": "2026-09-30"
     },
     {
       "id": "M248",
@@ -2810,9 +2810,9 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-29新增采集;；2026-09-30日常复查仍保留;；2026-10-02日常复查仍保留",
+      "freshness": "2026-09-29新增采集;；2026-09-30日常复查仍保留",
       "postedAt": "",
-      "lastChecked": "2026-10-02"
+      "lastChecked": "2026-09-30"
     },
     {
       "id": "D248",
@@ -2840,9 +2840,9 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-29新增采集;；2026-09-30日常复查仍保留;；2026-10-02日常复查仍保留",
+      "freshness": "2026-09-29新增采集;；2026-09-30日常复查仍保留",
       "postedAt": "",
-      "lastChecked": "2026-10-02"
+      "lastChecked": "2026-09-30"
     },
     {
       "id": "D249",
@@ -2870,9 +2870,9 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-29新增采集;；2026-09-30日常复查仍保留;；2026-10-02日常复查仍保留",
+      "freshness": "2026-09-29新增采集;；2026-09-30日常复查仍保留",
       "postedAt": "",
-      "lastChecked": "2026-10-02"
+      "lastChecked": "2026-09-30"
     },
     {
       "id": "D250",
@@ -3770,9 +3770,9 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-30新增采集;；2026-10-02日常复查仍保留",
+      "freshness": "2026-09-30新增采集",
       "postedAt": "2026-09-29",
-      "lastChecked": "2026-10-02"
+      "lastChecked": "2026-09-30"
     },
     {
       "id": "M262",
@@ -3920,9 +3920,9 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-30新增采集;；2026-10-02日常复查仍保留",
+      "freshness": "2026-09-30新增采集",
       "postedAt": "",
-      "lastChecked": "2026-10-02"
+      "lastChecked": "2026-09-30"
     },
     {
       "id": "M267",
@@ -3980,7 +3980,7 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-30新增采集;；2026-10-02日常复查仍保留",
+      "freshness": "2026-09-30新增采集；2026-10-02日常复查仍保留",
       "postedAt": "",
       "lastChecked": "2026-10-02"
     },
@@ -4010,9 +4010,9 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-30新增采集;；2026-10-02日常复查仍保留",
+      "freshness": "2026-09-30新增采集",
       "postedAt": "",
-      "lastChecked": "2026-10-02"
+      "lastChecked": "2026-09-30"
     },
     {
       "id": "D270",
@@ -4040,9 +4040,9 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-30新增采集;；2026-10-02日常复查仍保留",
+      "freshness": "2026-09-30新增采集",
       "postedAt": "",
-      "lastChecked": "2026-10-02"
+      "lastChecked": "2026-09-30"
     },
     {
       "id": "D271",
@@ -4070,9 +4070,9 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-30新增采集;；2026-10-02日常复查仍保留",
+      "freshness": "2026-09-30新增采集",
       "postedAt": "",
-      "lastChecked": "2026-10-02"
+      "lastChecked": "2026-09-30"
     },
     {
       "id": "D272",
@@ -4160,9 +4160,9 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-09-30新增采集",
+      "freshness": "2026-09-30新增采集；2026-10-02日常复查仍保留",
       "postedAt": "",
-      "lastChecked": "2026-09-30"
+      "lastChecked": "2026-10-02"
     },
     {
       "id": "D275",
@@ -4250,9 +4250,9 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-10-01新增采集",
+      "freshness": "2026-10-01新增采集；2026-10-02日常复查仍保留",
       "postedAt": "",
-      "lastChecked": "2026-10-01"
+      "lastChecked": "2026-10-02"
     },
     {
       "id": "M269",
@@ -4280,9 +4280,9 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-10-01新增采集",
+      "freshness": "2026-10-01新增采集；2026-10-02日常复查仍保留",
       "postedAt": "",
-      "lastChecked": "2026-10-01"
+      "lastChecked": "2026-10-02"
     },
     {
       "id": "M270",
@@ -4310,9 +4310,9 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-10-01新增采集",
+      "freshness": "2026-10-01新增采集；2026-10-02日常复查仍保留",
       "postedAt": "",
-      "lastChecked": "2026-10-01"
+      "lastChecked": "2026-10-02"
     },
     {
       "id": "M271",
@@ -4340,9 +4340,9 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-10-01新增采集",
+      "freshness": "2026-10-01新增采集；2026-10-02日常复查仍保留",
       "postedAt": "",
-      "lastChecked": "2026-10-01"
+      "lastChecked": "2026-10-02"
     },
     {
       "id": "M272",
@@ -4400,9 +4400,9 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-10-01新增采集",
+      "freshness": "2026-10-01新增采集；2026-10-02日常复查仍保留",
       "postedAt": "",
-      "lastChecked": "2026-10-01"
+      "lastChecked": "2026-10-02"
     },
     {
       "id": "M274",
@@ -4460,7 +4460,7 @@
       "ageFriendly": "优先",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-10-01新增采集;；2026-10-02日常复查仍保留",
+      "freshness": "2026-10-01新增采集；2026-10-02日常复查仍保留",
       "postedAt": "",
       "lastChecked": "2026-10-02"
     },
@@ -4580,9 +4580,9 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-10-01新增采集",
+      "freshness": "2026-10-01新增采集；2026-10-02日常复查仍保留",
       "postedAt": "",
-      "lastChecked": "2026-10-01"
+      "lastChecked": "2026-10-02"
     },
     {
       "id": "D281",
@@ -4640,9 +4640,9 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-10-01新增采集",
+      "freshness": "2026-10-01新增采集；2026-10-02日常复查仍保留",
       "postedAt": "",
-      "lastChecked": "2026-10-01"
+      "lastChecked": "2026-10-02"
     },
     {
       "id": "D283",
@@ -4670,9 +4670,9 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-10-01新增采集",
+      "freshness": "2026-10-01新增采集；2026-10-02日常复查仍保留",
       "postedAt": "",
-      "lastChecked": "2026-10-01"
+      "lastChecked": "2026-10-02"
     },
     {
       "id": "D284",
@@ -4700,18 +4700,180 @@
       "ageFriendly": "一般",
       "contactReliability": "需平台内联系",
       "contactNote": "公开页无电话/微信",
-      "freshness": "2026-10-01新增采集",
+      "freshness": "2026-10-01新增采集；2026-10-02日常复查仍保留",
       "postedAt": "",
-      "lastChecked": "2026-10-01"
+      "lastChecked": "2026-10-02"
+    },
+    {
+      "id": "D285",
+      "person": "dad",
+      "priority": "可投",
+      "title": "【青岛】招聘司机一名，C1驾照，驾龄满3年，无重大事故",
+      "company": "未注明",
+      "city": "青岛",
+      "district": "李沧区",
+      "salary": "7000-12000元/月",
+      "experience": "不限",
+      "education": "不限",
+      "schedule": "月休4天；日收入约450-650",
+      "ageReq": "21-59岁；无酒驾、毒驾、案底",
+      "contactName": "",
+      "phone": "",
+      "wechat": "",
+      "contactHint": "需平台内联系",
+      "contactReliability": "platform",
+      "contactNote": "平台内沟通",
+      "url": "https://www.yupao.com/zhaogong/414784454/AfJrJneE1K24UrWLh6i3XsLLBs.html",
+      "askTips": "确认车型/排班与是否需自带车",
+      "status": "在招",
+      "freshness": "2026-10-02/yupao新增",
+      "source": "yupao",
+      "postedAt": "",
+      "lastChecked": "2026-10-02"
+    },
+    {
+      "id": "D286",
+      "person": "dad",
+      "priority": "慎投",
+      "title": "曹操出行官方招聘正规司机C1C2",
+      "company": "曹操出行（标题所示）",
+      "city": "青岛",
+      "district": "黄岛区",
+      "salary": "9000-10000元/月",
+      "experience": "不限",
+      "education": "不限",
+      "schedule": "未写明",
+      "ageReq": "未写明",
+      "contactName": "",
+      "phone": "",
+      "wechat": "",
+      "contactHint": "需平台内联系",
+      "contactReliability": "platform",
+      "contactNote": "平台内沟通",
+      "url": "https://www.yupao.com/zhaogong/458209308/AphmBboU4iWEKk3B50FjPYRjNF.html",
+      "askTips": "确认车型/排班与是否需自带车",
+      "status": "在招",
+      "freshness": "2026-10-02/yupao新增",
+      "source": "yupao",
+      "postedAt": "",
+      "lastChecked": "2026-10-02"
+    },
+    {
+      "id": "D287",
+      "person": "dad",
+      "priority": "慎投",
+      "title": "相安科技（天津）...招聘商务车司机",
+      "company": "相安科技（天津）（标题所示）",
+      "city": "青岛",
+      "district": "",
+      "salary": "8000-12000元/月",
+      "experience": "不限",
+      "education": "不限",
+      "schedule": "全职",
+      "ageReq": "未写明",
+      "contactName": "",
+      "phone": "",
+      "wechat": "",
+      "contactHint": "需平台内联系",
+      "contactReliability": "platform",
+      "contactNote": "平台内沟通",
+      "url": "https://www.yupao.com/zhaogong/440553772/AmiqRWQNRP8uWQgmA3xmWx2l92.html",
+      "askTips": "确认车型/排班与是否需自带车",
+      "status": "在招",
+      "freshness": "2026-10-02/yupao新增",
+      "source": "yupao",
+      "postedAt": "",
+      "lastChecked": "2026-10-02"
+    },
+    {
+      "id": "D288",
+      "person": "dad",
+      "priority": "慎投",
+      "title": "青岛途信汽车招聘商务车司机",
+      "company": "青岛途信汽车（标题所示）",
+      "city": "青岛",
+      "district": "",
+      "salary": "7000-10000元/月",
+      "experience": "不限",
+      "education": "不限",
+      "schedule": "月结",
+      "ageReq": "未写明",
+      "contactName": "",
+      "phone": "",
+      "wechat": "",
+      "contactHint": "需平台内联系",
+      "contactReliability": "platform",
+      "contactNote": "平台内沟通",
+      "url": "https://www.yupao.com/zhaogong/419959340/A2wso68NujMOLaDrfkwjijx0as.html",
+      "askTips": "确认车型/排班与是否需自带车",
+      "status": "在招",
+      "freshness": "2026-10-02/yupao新增",
+      "source": "yupao",
+      "postedAt": "",
+      "lastChecked": "2026-10-02"
+    },
+    {
+      "id": "D289",
+      "person": "dad",
+      "priority": "慎投",
+      "title": "【青岛】急缺6个开车师傅稳定+无需带车+日结500",
+      "company": "未注明",
+      "city": "青岛",
+      "district": "",
+      "salary": "10000-12000元/月",
+      "experience": "不限",
+      "education": "不限",
+      "schedule": "日结",
+      "ageReq": "未写明",
+      "contactName": "",
+      "phone": "",
+      "wechat": "",
+      "contactHint": "需平台内联系",
+      "contactReliability": "platform",
+      "contactNote": "平台内沟通",
+      "url": "https://www.yupao.com/zhaogong/460607363/A0zvoJimIC5esFooJUiQ5uhjVT.html",
+      "askTips": "确认车型/排班与是否需自带车",
+      "status": "在招",
+      "freshness": "2026-10-02/yupao新增",
+      "source": "yupao",
+      "postedAt": "",
+      "lastChecked": "2026-10-02"
+    },
+    {
+      "id": "D290",
+      "person": "dad",
+      "priority": "可投",
+      "title": "小车司机",
+      "company": "青岛武晓集团股份有限公司",
+      "city": "青岛",
+      "district": "胶州市",
+      "salary": "4.6-5千",
+      "experience": "不限",
+      "education": "不限",
+      "schedule": "未写明",
+      "ageReq": "未写明",
+      "contactName": "",
+      "phone": "",
+      "wechat": "",
+      "contactHint": "需平台内联系",
+      "contactReliability": "platform",
+      "contactNote": "平台内沟通",
+      "url": "https://jobs.51job.com/qingdao-jzs/173791909.html",
+      "askTips": "确认车型/排班与是否需自带车",
+      "status": "在招",
+      "freshness": "2026-10-02/51job新增",
+      "source": "51job",
+      "postedAt": "",
+      "lastChecked": "2026-10-02"
     }
   ],
   "contactDisclaimer": "岗位仅保留近7天内复查过的条目；更早的已归档下架。列表时效以「最近复查」为准。公开电话可能不可靠，优先平台内沟通。",
   "freshnessPolicy": {
     "maxAgeDays": 7,
     "field": "lastChecked",
-    "appliedAt": "2026-10-02T09:45:00+08:00",
+    "appliedAt": "2026-10-02T09:50:00+08:00",
     "cutoff": "2026-09-25",
     "archivedCount": 14,
-    "lastScanAt": "2026-10-02T09:45:00+08:00"
+    "lastScanAt": "2026-10-02T09:50:00+08:00"
   }
 }
